@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 export const AdminDashboardContainer = styled.div`
   display: flex;
+  margin-left: 180px;
 `;
 
 export const Content = styled.div`
