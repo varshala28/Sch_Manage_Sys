@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 export const StudentsContainer = styled.div`
   display: flex;
+  margin-left: 240px;
  
 `;
 

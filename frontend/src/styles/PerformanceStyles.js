@@ -3,6 +3,8 @@ import styled from 'styled-components';
 
 export const PerformanceContainer = styled.div`
   display: flex;
+  margin-left: 240px;
+  
 `;
 
 export const Content = styled.div`
@@ -14,7 +16,7 @@ export const PerformanceContent = styled.div`
 `;
 
 export const PerformanceHeader = styled.h2`
-  font-size: 24px;
+  font-size: 26px;
   margin-bottom: 20px;
 `;
 
@@ -25,7 +27,7 @@ export const SchoolPerformance = styled.div`
 export const IndividualPerformance = styled.div``;
 
 export const SidebarContainer = styled.div`
-  flex: 0 0 250px; /* Sidebar width */
+  flex: 0 0 200px; /* Sidebar width */
 `;
 
 export const PerformanceInfo = styled.div`
