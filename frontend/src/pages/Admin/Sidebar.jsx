@@ -20,7 +20,7 @@ const SidebarContainer = styled.div`
   width: ${({ isOpen }) => (isOpen ? '250px' : '80px')};
   width: 250px;
   height: 100%;
-  background-color: #2c3e50; /* Dark blue background */
+  background-color: #4C1D95; /* Dark blue background */
   color: white;
   overflow-y: auto; /* Enable vertical scrolling */
   padding-top: 60px;
@@ -48,7 +48,7 @@ const SidebarNavItem = styled.li`
   border-bottom: 1px solid #34495e; /* Darker border */
   transition: background-color 0.3s ease;
   &:hover {
-    background-color: #34495e; /* Darker background on hover */
+    background-color: #312E81; /* Darker background on hover */
   }
 `;
 
@@ -65,27 +65,6 @@ const SidebarIcon = styled.div`
 const Logo = styled.img`
   width: 50px;
   height: auto;
-`;
-
-const ToggleButton = styled.div`
-  position: absolute;
-  top: 20px;
-  right: 0;
-  width: 30px;
-  height: 30px;
-  background-color: #34495e; /* Darker background */
-  border-radius: 50%;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
-
-const ToggleIcon = styled.span`
-  color: white;
-  font-size: 20px;
-  transform: ${({ isOpen }) => (isOpen ? 'rotate(180deg)' : 'rotate(0deg)')};
-  transition: transform 0.3s ease;
 `;
 
 const Sidebar = () => {
@@ -150,9 +129,7 @@ const Sidebar = () => {
           <StyledLink to="/admin/profile">Settings & Profile</StyledLink>
         </SidebarNavItem>
         </SidebarNav>
-      <ToggleButton onClick={toggleSidebar}>
-        <ToggleIcon isOpen={isOpen}>▲</ToggleIcon>
-      </ToggleButton>
+     
     </SidebarContainer>
   );
 };

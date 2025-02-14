@@ -46,7 +46,7 @@ export const EventInput = styled.input`
 
 export const AddEventButton = styled.button`
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color:  #F39C12;
   color: #fff;
   border: none;
   border-radius: 5px;

@@ -50,7 +50,7 @@ export const AddClassInput = styled.input`
 
 export const AddClassButton = styled.button`
   padding: 8px 16px;
-  background-color: #007bff;
+  background-color:  #F39C12;
   color: #fff;
   border: none;
   border-radius: 4px;
