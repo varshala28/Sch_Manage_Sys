@@ -5,9 +5,9 @@ export const StudentSignInContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start; /* Align items at the top */
-  background: linear-gradient(45deg, #6a89cc, #b8c6db); /* Neutral blue gradient */
-  min-height: 100vh; /* Full height of the viewport */
+  justify-content: flex-start; 
+  background: linear-gradient(135deg, #5B5F97, #D9A7C7); 
+  min-height: 100vh; 
   padding: 20px;
 `;
 
@@ -16,23 +16,23 @@ export const FormContainer = styled.form`
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 400px; /* Increased form width */
+  max-width: 400px; 
   padding: 30px;
-  border: 1px solid #ddd;
-  border-radius: 12px; /* Rounded corners */
-  background-color: #ffffff;
+  border: 1px solid #bbb;
+  border-radius: 12px; 
+  background-color: #f0f0f0; 
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-  margin-top: 40px; /* Reduced top margin to pull the form up */
+  margin-top: 40px; 
 `;
 
 export const InputField = styled.input`
   width: 100%;
   padding: 15px;
   margin: 12px 0;
-  border: 1px solid #ccc;
+  border: 1px solid #999; 
   border-radius: 6px;
   font-size: 16px;
-  box-sizing: border-box; /* Ensure padding doesn't overflow */
+  box-sizing: border-box; 
 `;
 
 export const SubmitButton = styled(Link)`
@@ -41,7 +41,7 @@ export const SubmitButton = styled(Link)`
   margin-top: 20px;
   border: none;
   border-radius: 8px;
-  background-color: #3498db; /* Standard blue */
+  background-color: #6C5B7B; 
   color: white;
   font-size: 18px;
   text-decoration: none;
@@ -50,7 +50,7 @@ export const SubmitButton = styled(Link)`
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: #2980b9; /* Darker blue on hover */
+    background-color: #8e44ad; ; 
   }
 
   @media screen and (max-width: 768px) {

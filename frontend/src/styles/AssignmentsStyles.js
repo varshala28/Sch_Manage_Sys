@@ -60,7 +60,7 @@ export const AddAssignmentTextArea = styled.textarea`
 
 export const AddAssignmentButton = styled.button`
   padding: 10px 16px;
-  background-color: #007bff;
+  background-color:  #F39C12;
   color: #fff;
   border: none;
   border-radius: 4px;

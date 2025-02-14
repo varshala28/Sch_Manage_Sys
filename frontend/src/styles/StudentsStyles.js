@@ -26,7 +26,7 @@ export const StudentList = styled.ul`
 `;
 
 export const StudentItem = styled.li`
-  background-color: #f9f9f9;
+  background-color: #191970;
   border-radius: 8px;
   padding: 10px 20px;
   margin-bottom: 10px;
@@ -46,7 +46,7 @@ export const AddStudentInput = styled.input`
 
 export const AddStudentButton = styled.button`
   padding: 8px 16px;
-  background-color: #007bff;
+  background-color: #F39C12;
   color: #fff;
   border: none;
   border-radius: 4px;
