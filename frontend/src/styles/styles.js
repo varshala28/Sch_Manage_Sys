@@ -35,7 +35,7 @@ export const NavigationLinks = styled.div`
   display: flex;
   justify-content: flex-end;
   gap:20px;
-  margin-left: 740px;
+  margin-left: 730px;
   @media screen and (max-width: 768px) {
   margin-top: 10px;
   }
