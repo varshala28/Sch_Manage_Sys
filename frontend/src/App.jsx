@@ -19,6 +19,16 @@ import AdminStudents from './pages/Admin/Students'
 import AdminTeachers from './pages/Admin/Teachers'
 import AdminProfile from './pages/Admin/Profile'
 
+import StudentAnnounce from './pages/Student/Announce'
+import StudentAssign from './pages/Student/Assign'
+import StudentAttendance from './pages/Student/Attendance'
+import StudentDashboard from './pages/Student/Dashboard'
+import StudentExam from './pages/Student/Exam'
+import StudentLibrary from './pages/Student/Library'
+import StudentPerformance from './pages/Student/Performance'
+import StudentProfile from './pages/Student/Profile'
+import StudentSidebar from './pages/Student/Sidebar'
+
 function App() {
   return (
     <Router>
@@ -45,6 +55,17 @@ function App() {
         <Route path= '/admin/students' element={<AdminStudents/>} />
         <Route path= '/admin/teachers' element={<AdminTeachers/>} />
         <Route path= '/admin/profile' element={<AdminProfile/>} />
+
+        {/* Students sections here  */}
+        <Route path= '/student/announce' element={<StudentAnnounce/>} />
+        <Route path= '/student/assign' element={<StudentAssign/>} />
+        <Route path= '/student/attendance' element={<StudentAttendance/>} />
+        <Route path= '/student/dashboard' element={<StudentDashboard/>} />
+        <Route path= '/student/exam' element={<StudentExam/>} />
+        <Route path= '/student/library' element={<StudentLibrary/>} />
+        <Route path= '/student/performance' element={<StudentPerformance/>} />
+        <Route path= '/student/profile' element={<StudentProfile/>} />
+        <Route path= '/student/sidebar' element={<StudentSidebar/>} />
         </Routes>
         </Router>
   )

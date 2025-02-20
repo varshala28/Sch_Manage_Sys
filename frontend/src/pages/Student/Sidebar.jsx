@@ -97,11 +97,11 @@ const Sidebar = () => {
         </SidebarNavItem>
         <SidebarNavItem>
           <SidebarIcon><BsFileText /></SidebarIcon>
-          <StyledLink to="/student/assignments">Assignments</StyledLink>
+          <StyledLink to="/student/assign">Assignments</StyledLink>
         </SidebarNavItem>
         <SidebarNavItem>
           <SidebarIcon><BsBook /></SidebarIcon>
-          <StyledLink to="/student/exams">Exams</StyledLink>
+          <StyledLink to="/student/exam">Exam</StyledLink>
         </SidebarNavItem>
         <SidebarNavItem>
           <SidebarIcon><BsGraphDown /></SidebarIcon>
@@ -117,11 +117,11 @@ const Sidebar = () => {
         </SidebarNavItem>
         <SidebarNavItem>
           <SidebarIcon><BsChatDots /></SidebarIcon>
-          <StyledLink to="/student/communication">Announcement</StyledLink>
+          <StyledLink to="/student/announce">Announcement</StyledLink>
         </SidebarNavItem>
         <SidebarNavItem>
           <SidebarIcon><BsGear /></SidebarIcon>
-          <StyledLink to="/student/settings">Profile</StyledLink>
+          <StyledLink to="/student/profile">Profile</StyledLink>
         </SidebarNavItem>
         
       </SidebarNav>
